@@ -1,0 +1,23 @@
+#chat-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#message-container {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#username, #message-input, #send-button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#send-button {
+    cursor: pointer;
+}
